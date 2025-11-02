@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to my group website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100 min-h-screen flex flex-col">
+    <!--  Banner -->
+    <header
+      class="w-full h-56 sm:h-64 bg-gradient-to-r from-blue-500 to-indigo-600 flex flex-col justify-center items-center text-white shadow-lg relative"
+    >
+      <h1 class="text-3xl sm:text-4xl font-bold mb-2 drop-shadow-md">
+        👋 Welcome to my group website
+      </h1>
+      <p class="text-base sm:text-lg text-blue-100">
+        Group Assignment - ToDo List Wbesite
+      </p>
+      <div class="absolute inset-0 bg-black opacity-10 rounded-b-2xl"></div>
+    </header>
+
+    <!--Nội dung chính -->
+    <main
+      class="flex flex-col items-center w-full max-w-5xl mx-auto bg-white shadow-xl rounded-2xl p-6 sm:p-8 mt-8 mb-8"
+    >
+      <p class="text-gray-700 mb-6 text-lg text-center">
+        Click the button below to check ToDo List 👇
+      </p>
+
+      <!--  Nút Start -->
+      <a
+        href="/todo"
+        class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold shadow-md transition mb-10"
+      >
+        🚀 Start
+      </a>
+
+      <!--  Các thẻ thành viên -->
+      <h2 class="text-xl font-bold text-gray-800 mb-6 text-center">
+        👨‍💻 Group Members
+      </h2>
+
+      <div class="flex justify-center w-full">
+        <div class="flex flex-col items-center space-y-8">
+          <!-- Thành viên 1 -->
+          <div
+            class="bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl shadow-md p-6 w-full max-w-xs text-center hover:scale-105 transition"
+          >
+            <h3 class="text-lg font-semibold text-gray-800">
+              Nguyễn Đăng Khoa
+            </h3>
+            <p class="text-gray-600 mt-1">MSSV: 23127393</p>
+          </div>
+
+          <!--  Thành viên 2 -->
+          <div
+            class="bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl shadow-md p-6 w-full max-w-xs text-center hover:scale-105 transition"
+          >
+            <h3 class="text-lg font-semibold text-gray-800">
+              Đặng Nguyễn Thành Hiếu
+            </h3>
+            <p class="text-gray-600 mt-1">MSSV: 23127364</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--  Footer -->
+    <footer class="bg-gray-800 text-gray-200 py-4 text-center text-sm mt-auto">
+      <p>© 2025 My Group Assignment | Built by Group Members</p>
+    </footer>
+  </body>
+</html>
